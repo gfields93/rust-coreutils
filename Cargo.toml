@@ -11,6 +11,14 @@ path = "src/echo/bin/echo.rs"
 name = "yes"
 path = "src/yes/bin/main.rs"
 
+[[bin]]
+name = "true"
+path = "src/true/bin/main.rs"
+
+[[bin]]
+name = "false"
+path = "src/false/bin/main.rs"
+
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
