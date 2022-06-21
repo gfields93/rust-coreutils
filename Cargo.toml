@@ -19,6 +19,10 @@ path = "src/true/bin/main.rs"
 name = "false"
 path = "src/false/bin/main.rs"
 
+[[bin]]
+name = "test"
+path = "src/test_command/bin/main.rs"
+
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
