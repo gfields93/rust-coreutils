@@ -12,5 +12,5 @@ impl Display for False {
 impl Error for False { }
 
 fn main() -> Result<(), Box<dyn Error>> {
-    Err(Box::new(False))
+    std::process::exit(1)
 }
